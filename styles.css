@@ -11,8 +11,9 @@ body {
 }
 
 .content {
-    height: 100vh;
-    color: #f3ffff;
+    height: 200vh;
+    background-color: #f3ffff;
+    place-items: center;
 }
 
 header {
