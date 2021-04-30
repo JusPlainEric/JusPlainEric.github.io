@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-    margin: auto;
+    height: 100vh;
     color: #f3ffff;
 }
 
