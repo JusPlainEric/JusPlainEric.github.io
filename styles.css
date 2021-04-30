@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background:   #e0e0e0;
+    background:   #606060;
 
 
 }
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #fc90af;
+    background: #c0d9f8;
 }
 
 header::after{
