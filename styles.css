@@ -11,12 +11,8 @@ body {
 }
 
 .content {
-    margin-top: 0;
-    margin-right: 75px;
-    margin-left: 75px;
-    margin-bottom: 0;
-
-    color: #ffffff;
+    margin: 0px 75px 75px 0px;
+    color: #f3ffff;
 }
 
 header {
