@@ -10,6 +10,15 @@ body {
     margin: 0 auto;
 }
 
+.content {
+    margin-top: 0;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-bottom: 0;
+
+    color: #ffffff;
+}
+
 header {
     background: #c0d9f8;
 }
