@@ -64,6 +64,10 @@ nav a{
     font-size: 1.2rem;
 }
 
+.nav-toggle:checked ~ nav{
+    display: block;
+}
+
 nav a:hover{
     color: #1b1b1b;
 }
