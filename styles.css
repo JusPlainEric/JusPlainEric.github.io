@@ -68,22 +68,44 @@ nav a{
     display: block;
 }
 
+.nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display:    flex;
+    align-items:    center;
+}
+
+.nav-toggle-label span {
+    display:block;
+    background: #363636;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: ' ';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
 nav a:hover{
     color: #1b1b1b;
 }
 
-nav a::before{
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: #1b1b1b;
-
-    position: absolute;
-    top: 0;
-    width: 0%;
-    
-    transition: all ease-in-out 250ms;
-}
-nav a:hover::before{
-    width:100%;
-}
