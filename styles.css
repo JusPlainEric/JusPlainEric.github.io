@@ -42,7 +42,9 @@ nav{
     left: 0;
     background: var(--background);
     width: 100%;
-    display: none;
+    transform: scale(1,0);
+    transition: transform 400ms ease-in-out;
+    transform-origin: top;
 }
 
 nav ul{
@@ -52,7 +54,6 @@ nav ul{
 }
 
 nav li{
-    display: inline-block;
     padding-bottom: 1em;
     margin-bottom: 1em;
 
@@ -63,10 +64,12 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 250ms ease-in-out 250ms;
 }
 
 .nav-toggle:checked ~ nav{
-    display: block;
+    transform: scale(1,1);
 }
 
 .nav-toggle{
@@ -110,5 +113,9 @@ nav a{
 
 nav a:hover{
     color: #1b1b1b;
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
 }
 
