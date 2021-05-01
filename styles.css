@@ -1,3 +1,7 @@
+:root {
+    --background: rgba(192, 217, 248, 0.85)
+}
+
 body {
     margin: 0;
     background:   #606060;
@@ -12,12 +16,17 @@ body {
 
 .content {
     height: 200vh;
+    margin: 5px 100px 5px;
     background-color: #f3ffff;
     place-items: center;
 }
 
 header {
-    background: #c0d9f8;
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 header::after{
@@ -27,7 +36,12 @@ header::after{
 }
 
 nav{
-    float: right;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
 }
 
 nav ul{
@@ -38,19 +52,16 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left:  70px;
-    padding-top:  25px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
 
-    position: relative;
 }
 
 nav a{
     color: #424242;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 nav a:hover{
