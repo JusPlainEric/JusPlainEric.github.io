@@ -31,6 +31,10 @@ body {
     place-items: center;
 }
 
+.logo {
+    font-size: 20px;
+}
+
 header {
     background: var(--primarycolor);
     text-align: center;
@@ -143,6 +147,7 @@ nav a:hover{
 
     .logo {
         grid-column: 2 / 3;
+        font-size: 20px;
     }
 
     nav {
