@@ -18,6 +18,7 @@ body {
     margin: 0;
     background:  var(--secondarycolor);
     font-weight: 400;
+    font-size: 16px;
 
 }
 
@@ -125,7 +126,7 @@ nav a:hover{
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 800px) {
     .nav-toggle-label{
         display: none;
     }
