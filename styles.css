@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 60px;
 }
 
 header {
@@ -147,7 +147,7 @@ nav a:hover{
 
     .logo {
         grid-column: 2 / 3;
-        font-size: 20px;
+        font-size: 60px;
     }
 
     nav {
