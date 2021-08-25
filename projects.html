@@ -1,0 +1,29 @@
+
+
+<!-- <h3>{{ message }}</h3> -->
+
+<br />
+<div class="row">
+    <button class="accordion">Resume Website</button>
+    <div class="panel">
+        <p>I decided to try making this website to test out my skills and figure out how to code and do other things.</p>
+    </div>
+</div>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+</script>
