@@ -72,13 +72,6 @@ nav a{
     transition: opacity 150ms ease-in-out;
 }
 
-.navbar{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 .nav-toggle{
     position: absolute !important;
     top: -9999px !important;
