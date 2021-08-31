@@ -29,7 +29,7 @@ body {
     place-items: center;
     width: 960px;
     margin-top: auto;
-    margin-left: auto;
+    margin-left: 60px;
     margin-right: auto;
     margin-bottom: auto;
     box-shadow: 0 0 3em rgba(0,0,0, 0.15);
