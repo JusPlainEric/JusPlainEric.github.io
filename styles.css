@@ -23,11 +23,9 @@ body {
 }
 
 .content {
-    height: 200vh;
     background-color: var(--primarylight);
     background-blend-mode: multiply;
     background-size: cover;
-    display: grid;
     place-items: center;
     width: 70vw;
     padding: 3em;
