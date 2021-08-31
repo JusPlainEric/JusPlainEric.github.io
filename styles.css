@@ -27,8 +27,8 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     place-items: center;
-    width: 70vw;
-    padding: 3em;
+    width: 656px;
+    margin: 0px 22px;
     box-shadow: 0 0 3em rgba(0,0,0, 0.15);
 }
 
