@@ -190,7 +190,7 @@ nav a:hover{
 }
 
 .profile {
-    width:300px; 
+    max-width:50%; 
     height: auto;
 }
 
