@@ -268,24 +268,28 @@ nav a:hover{
         transform: scale(1,1);
     }
   
-    .wrap{
-      display: flex;
-    }
-  
 
-    .one{
-      padding-right: 10px;
-      width: 30%;
-    }
-  
-    .two {
-      padding-left: 10px;
-      width:70%;
-    }
 
     .profile {
         width:500px; 
         height: auto;
     }
   
+}
+
+@media screen and (min-width: 850px) {
+    .wrap{
+        display: flex;
+      }
+    
+  
+      .one{
+        padding-right: 10px;
+        width: 30%;
+      }
+    
+      .two {
+        padding-left: 10px;
+        width:70%;
+      }
 }
