@@ -185,8 +185,13 @@ nav a:hover{
   height: 15px;
 }
 
-.one {
-    max-width: 100%;
+.wrap{
+    display: flex;
+}
+
+.one,.two{
+    width: 100%;
+    padding: 5px;
 }
 
 .profile {
@@ -267,11 +272,7 @@ nav a:hover{
       display: flex;
     }
   
-    .one,.two{
-        width:auto;
-        display: inline-block;
-    }
-  
+
     .one{
       padding-right: 10px;
       width: 30%;
