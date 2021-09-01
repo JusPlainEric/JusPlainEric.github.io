@@ -189,6 +189,11 @@ nav a:hover{
     max-width: 100%;
 }
 
+.profile {
+    width:300px; 
+    height: auto;
+}
+
 @media screen and (min-width: 600px) {
     .nav-toggle-label{
         display: none;
@@ -275,6 +280,11 @@ nav a:hover{
     .two {
       padding-left: 10px;
       width:70%;
+    }
+
+    .profile {
+        width:500px; 
+        height: auto;
     }
   
 }
