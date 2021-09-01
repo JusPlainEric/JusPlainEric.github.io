@@ -199,7 +199,7 @@ nav a:hover{
     height: auto;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1450px) {
     .nav-toggle-label{
         display: none;
     }
