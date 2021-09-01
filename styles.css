@@ -185,6 +185,10 @@ nav a:hover{
   height: 15px;
 }
 
+.one {
+    width: 100%;
+}
+
 @media screen and (min-width: 600px) {
     .nav-toggle-label{
         display: none;
@@ -265,10 +269,12 @@ nav a:hover{
   
     .one{
       padding-right: 10px;
+      width: 30%;
     }
   
     .two {
       padding-left: 10px;
+      width:70%;
     }
   
 }
