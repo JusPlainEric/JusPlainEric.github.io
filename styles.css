@@ -61,7 +61,7 @@ body {
     background-size: cover;
     place-items: center;
     margin-bottom: 10px;
-    height:200vh;
+    min-height:100%;
     box-shadow: 0 0 3em rgba(0,0,0, 0.15);
     padding-top: 90px;
 }
@@ -176,18 +176,16 @@ nav a:hover{
 .company {
   font-weight: bold;
   font-size: 30px;
-  height: 20px;
+  height: 30px;
 }
 
 .workposition {
   font-weight: normal;
   font-size: 20px;
-  height: 10px;
+  height: 15px;
 }
 
-
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) {
     .nav-toggle-label{
         display: none;
     }
@@ -198,8 +196,8 @@ nav a:hover{
     }
 
     .content {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .logo {
@@ -255,4 +253,22 @@ nav a:hover{
     nav a:hover::before{
         transform: scale(1,1);
     }
+  
+    .wrap{
+      display: flex;
+    }
+  
+    .one,.two{
+        width:auto;
+        display: inline-block;
+    }
+  
+    .one{
+      padding-right: 10px;
+    }
+  
+    .two {
+      padding-left: 10px;
+    }
+  
 }
