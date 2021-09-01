@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+
+
+ <header>
+            <h1 class="logo">Logo</h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="workexp.html">Work Experience</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+    </header>
+
+<div class ="content">
+
+  <div class ="writing">
+    <h2>In Progress</h2>
+          <div class="row">
+            <button class="accordion">Google UX Design Professional</button>
+            <div class="panel">
+              <h4>Requirements</h4>
+                <ul>
+                  <li>Follow the design process: empathize with users, define pain points, ideate solutions, create wireframes and prototypes, test and iterate on designs.</li>
+                  <li>Apply foundational UX concepts, like user-centered design, accessibility, and equity-focused designn.</li>
+                  <li>Understand the basics of UX research, like planning research studies, conducting interviews and usability studies, and synthesizing research results.</li>
+                  <li>Create a professional UX portfolio that includes 3 end-to-end projects: a mobile app, a responsive website, and a cross-platform experience.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="accordion">Security+</button>
+            <div class="panel">
+              <h4>Requirements</h4>
+                <ul>
+                  <li>Assess the security posture of an enterprise environment and recommend and implement appropriate security solutions</li>
+                  <li>Monitor and secure hybrid environments, including cloud, mobile, and IoT</li>
+                  <li>Operate with an awareness of applicable laws and policies, including principles of governance, risk, and compliance</li>
+                  <li>Identify, analyze, and respond to security events and incidents</li>
+              </ul>
+            </div>
+          </div>
+
+   <h2>Completed</h2>
+        <div class="row">
+            <button class="accordion">Bachelor's of Science: Computer Engineering</button>
+            <div class="panel">
+                <p>Introduction to common digital integrated circuits: gates, memory circuits, MSI components. Operating characteristics, specifications, applications. Design of simple combinational and sequential digital systems (arithmetic processors game-playing machines). Construction and debugging techniques using hardware description languages and CAD tools.</p>
+            </div>
+        </div>
+  </div>
+
+</div>
+
+
+</html>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+</script>

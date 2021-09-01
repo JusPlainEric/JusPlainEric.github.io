@@ -7,23 +7,52 @@
     </head>
 
 
-<header>
+  <header>
+            <h1 class="logo">Logo</h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="workexp.html">Work Experience</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+    </header>
+  
 
-        <h1 class="logo">Logo</h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="workexp.html">Work Experience</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span></span>
-        </label>
-
-</header>
+<div class="content">
+    <div class="writing"> 
+      <div style="clear:both">
+      <h3 class = "company" style="font-weight:bold">Qualcomm<h3>
+        <h4 class = "workposition" style="font-weight:normal">Engineering Technician</h4>
+        </div>
+        <hr />
+       
+      <ul style="font-weight:normal">
+        <li>Tested various electronic devices by hand, using TCUs, and various testing handlers.</li>
+        <li>Write clear and concise documentation so that both the engineer and the next shift knows details about what was tested and what issues may have occurred.</li>
+        <li>Communicate in real time, both verbal and nonverbal, with engineers to describe problems with their test programs or hardware issues.  Provide assistance immediately to rectify the problems that occurred.</li>
+      </ul>
+  </div>
+  <div class="writing"> 
+      <div style="clear:both">
+      <h3 class = "company" style="font-weight:bold">University of California, Irvine<h3>
+        <h4 class = "workposition" style="font-weight:normal">Research Assistant - Raspberry Pi Image Recognition</h4>
+        </div>
+        <hr />
+       
+      <ul style="font-weight:normal">
+        <li>Assembled a camera and video recording station centered around a Raspberry Pi.</li>
+        <li>Used Numpy and Tensorflow to assemble classes which allowed the software to recognize objects (such as bottles, tables, and chairs) based off what it learned through scanning mass amounts of images.</li>
+        <li>Used OpenCV library to implement object detection and classification on a captured image.  Also used it to use those same techniques on a live video via the Raspberry Pi Camera.
+</li>
+      </ul>
+  </div>
+</div>
 
 </html>
