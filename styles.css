@@ -216,9 +216,17 @@ nav a:hover{
     .content {
         font-size: 200%;
     } 
-    .company, .workduration, .workposition {
+    .company {
         font-size: 150%;
     }
+
+    .workduration, .workposition {
+        font-size: 125%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
 }
 
 @media screen and (min-width: 1450px) {
