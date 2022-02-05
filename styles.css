@@ -218,6 +218,7 @@ nav a:hover{
     } 
     .company {
         font-size: 150%;
+        padding-bottom: 25px;
     }
 
     .workduration, .workposition {
