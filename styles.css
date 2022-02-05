@@ -63,7 +63,7 @@ body {
     margin-bottom: 10px;
     min-height:100%;
     box-shadow: 0 0 3em rgba(0,0,0, 0.15);
-    padding-top: 150px;
+    padding-top: 90px;
 }
 
 header {
@@ -222,6 +222,7 @@ nav a:hover{
     }
 
     .logo {
+        padding-top: 10px;
         grid-column: 2 / 3;
     
     }
