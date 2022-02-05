@@ -174,6 +174,11 @@ nav a:hover{
     clear: both;
 }
 
+.logo {
+    padding-top: 10px;
+
+}
+
 .company {
   font-weight: bold;
   font-size: 30px;
