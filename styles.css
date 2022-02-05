@@ -212,7 +212,7 @@ nav a:hover{
 }
 
 @media screen and (min-width: 2000px) {
-    .content {
+    .content, .company, .workduration, .workposition {
         font-size: 200%;
     }
 }
