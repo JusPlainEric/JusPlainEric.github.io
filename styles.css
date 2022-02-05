@@ -1,6 +1,7 @@
 :root {
     --background: rgba(192, 217, 248, 1);
-    --primarycolor: #c0d9f8;
+    --primarycolor: #d9eaff;
+    /*--primarycolor: #c0d9f8;*/
     --primarylight: #f3ffff;
     --primarydark: #8fa8c5;
     --secondarycolor: #606060;
