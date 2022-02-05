@@ -130,7 +130,7 @@ nav a{
     display:block;
     background: var(--secondarydark);
     height: 2px;
-    width: 2em;
+    width: 2.5em;
     border-radius: 2px;
     position: relative;
 }
