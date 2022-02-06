@@ -309,13 +309,13 @@ nav a:hover{
     .workduration {
         font-weight: normal;
         font-size: 1.5vmax;
-        height: 15px;
+        height: 30px;
     }
 
     .workposition {
       font-weight: normal;
       font-size: 1.5vmax;
-      height: 15px;
+      height: 30px;
     }
   
 }
