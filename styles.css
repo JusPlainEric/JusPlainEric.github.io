@@ -30,7 +30,10 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active {
+  background-color: rgb(160,160,160);
+} 
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -109,10 +112,13 @@ nav a{
     transition: opacity 150ms ease-in-out;
 }
 
+
+
 .nav-toggle{
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
+    font-size: 1vmax;
 }
 
 .nav-toggle-label {
@@ -192,31 +198,31 @@ nav a:hover{
 }
 
 .profile {
-    max-width:300px; 
-    height: auto;
+    max-width:1vw; 
+    height: 1vh;
 }
 
-.company {
-    font-weight: bold;
-    font-size: 4vmax;
-    font-size: 40px;
-    height: 30px;
-    padding-bottom: 75px;
-}
+    .company {
+      font-weight: bold;
+      font-size: 4vmax;
+      font-size: 40px;
+      height: 30px;
+      padding-bottom: 20px;
+    }
 
-.workduration {
-    font-weight: normal;
-    font-size: 3vmax;
-    font-size: 30px;
-    height: 15px;
-}
+    .workduration {
+        font-weight: normal;
+        font-size: 3vmax;
+        font-size: 30px;
+        height: 15px;
+    }
 
-.workposition {
-    font-weight: normal;
-    font-size: 3vmax;
-    font-size: 30px;
-    height: 15px;
-}
+    .workposition {
+      font-weight: normal;
+      font-size: 3vmax;
+      font-size: 30px;
+      height: 15px;
+    }
 
 @media screen and (min-width: 1450px) {
     .nav-toggle-label{
@@ -303,20 +309,19 @@ nav a:hover{
     .company {
       font-weight: bold;
       font-size: 2.5vmax;
-      height: 30px;
-
+      height: 1vh;
     }
 
     .workduration {
         font-weight: normal;
         font-size: 1.5vmax;
-        height: 30px;
+        height: 3vh;
     }
 
     .workposition {
       font-weight: normal;
       font-size: 1.5vmax;
-      height: 30px;
+      height: 3vh;
     }
   
 }
