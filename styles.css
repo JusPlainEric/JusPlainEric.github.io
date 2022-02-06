@@ -191,7 +191,10 @@ nav a:hover{
     display: flex;
 }
 
-.one,.two{
+.one {
+    size: 3vmax
+}
+.two{
     width: 100%;
     padding: 5px;
 }
