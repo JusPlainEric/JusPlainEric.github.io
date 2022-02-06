@@ -79,6 +79,8 @@ header {
     height: 75px;
 }
 
+
+
 nav{
     position: absolute;
     text-align: left;
@@ -110,6 +112,11 @@ nav a{
     font-size: 1.2rem;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+}
+
+nav li:active{
+  background: var(--primarydark);
+  height: 100%;
 }
 
 
@@ -346,6 +353,5 @@ nav a:hover{
   
   
   
-    
 
 }
