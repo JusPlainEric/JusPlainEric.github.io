@@ -196,27 +196,27 @@ nav a:hover{
     height: auto;
 }
 
-    .company {
-      font-weight: bold;
-      font-size: 4vmax;
-      font-size: 40px;
-      height: 30px;
-      padding-bottom: 20px;
-    }
+.company {
+    font-weight: bold;
+    font-size: 4vmax;
+    font-size: 40px;
+    height: 30px;
+    padding-bottom: 20px;
+}
 
-    .workduration {
-        font-weight: normal;
-        font-size: 3vmax;
-        font-size: 30px;
-        height: 15px;
-    }
+.workduration {
+    font-weight: normal;
+    font-size: 3vmax;
+    font-size: 30px;
+    height: 15px;
+}
 
-    .workposition {
-      font-weight: normal;
-      font-size: 3vmax;
-      font-size: 30px;
-      height: 15px;
-    }
+.workposition {
+    font-weight: normal;
+    font-size: 3vmax;
+    font-size: 30px;
+    height: 15px;
+}
 
 @media screen and (min-width: 1450px) {
     .nav-toggle-label{
@@ -303,19 +303,19 @@ nav a:hover{
     .company {
       font-weight: bold;
       font-size: 2.5vmax;
-      height: 1vh;
+      height: 30px;
     }
 
     .workduration {
         font-weight: normal;
         font-size: 1.5vmax;
-        height: 3vh;
+        height: 15px;
     }
 
     .workposition {
       font-weight: normal;
       font-size: 1.5vmax;
-      height: 3vh;
+      height: 15px;
     }
   
 }
