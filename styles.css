@@ -30,10 +30,7 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active {
-  background-color: rgb(160,160,160);
-} 
-.accordion:hover {
+.active, .accordion:hover {
     background-color: #ccc;
 }
 
@@ -79,8 +76,6 @@ header {
     height: 75px;
 }
 
-
-
 nav{
     position: absolute;
     text-align: left;
@@ -105,6 +100,11 @@ nav li{
 
 }
 
+nav li:active{
+    background: var(--primarydark);
+    height: 100%;
+}
+
 nav a{
     color: var(--secondarycolor);
     text-decoration: none;
@@ -114,18 +114,10 @@ nav a{
     transition: opacity 150ms ease-in-out;
 }
 
-nav li:active{
-  background: var(--primarydark);
-  height: 100%;
-}
-
-
-
 .nav-toggle{
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
-    font-size: 1vmax;
 }
 
 .nav-toggle-label {
@@ -205,31 +197,31 @@ nav a:hover{
 }
 
 .profile {
-    max-width:1vw; 
-    height: 1vh;
+    max-width:300px; 
+    height: auto;
 }
 
-    .company {
-      font-weight: bold;
-      font-size: 4vmax;
-      font-size: 40px;
-      height: 30px;
-      padding-bottom: 20px;
-    }
+.company {
+    font-weight: bold;
+    font-size: 4vmax;
+    font-size: 40px;
+    height: 30px;
+    padding-bottom: 75px;
+}
 
-    .workduration {
-        font-weight: normal;
-        font-size: 3vmax;
-        font-size: 30px;
-        height: 15px;
-    }
+.workduration {
+    font-weight: normal;
+    font-size: 3vmax;
+    font-size: 30px;
+    height: 15px;
+}
 
-    .workposition {
-      font-weight: normal;
-      font-size: 3vmax;
-      font-size: 30px;
-      height: 15px;
-    }
+.workposition {
+    font-weight: normal;
+    font-size: 3vmax;
+    font-size: 30px;
+    height: 15px;
+}
 
 @media screen and (min-width: 1450px) {
     .nav-toggle-label{
@@ -316,19 +308,20 @@ nav a:hover{
     .company {
       font-weight: bold;
       font-size: 2.5vmax;
-      height: 1vh;
+      height: 30px;
+
     }
 
     .workduration {
         font-weight: normal;
         font-size: 1.5vmax;
-        height: 3vh;
+        height: 30px;
     }
 
     .workposition {
       font-weight: normal;
       font-size: 1.5vmax;
-      height: 3vh;
+      height: 30px;
     }
   
 }
@@ -353,5 +346,6 @@ nav a:hover{
   
   
   
+    
 
 }
