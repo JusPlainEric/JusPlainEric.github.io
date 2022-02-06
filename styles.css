@@ -222,7 +222,7 @@ nav a:hover{
     }
 
     .workduration, .workposition {
-        font-size: 125%;
+        font-size: 50vh;
         margin-top: 5px;
         margin-bottom: 5px;
         padding-bottom: 25px;
