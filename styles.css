@@ -180,23 +180,7 @@ nav a:hover{
 
 }
 
-.company {
-  font-weight: bold;
-  font-size: 30px;
-  height: 30px;
-}
 
-.workduration {
-    font-weight: normal;
-    font-size: 15px;
-    height: 15px;
-}
-
-.workposition {
-  font-weight: normal;
-  font-size: 20px;
-  height: 15px;
-}
 
 .wrap{
     display: flex;
@@ -212,24 +196,27 @@ nav a:hover{
     height: auto;
 }
 
-@media screen and (min-width: 2000px) {
-    .content {
-        font-size: 200%;
-    } 
     .company {
-        font-size: 150%;
-        padding-bottom: 50px;
+      font-weight: bold;
+      font-size: 4vmax;
+      font-size: 40px;
+      height: 30px;
+      padding-bottom: 20px;
     }
 
-    .workduration, .workposition {
-        font-size: 50vw;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding-bottom: 25px;
+    .workduration {
+        font-weight: normal;
+        font-size: 3vmax;
+        font-size: 30px;
+        height: 15px;
     }
 
-
-}
+    .workposition {
+      font-weight: normal;
+      font-size: 3vmax;
+      font-size: 30px;
+      height: 15px;
+    }
 
 @media screen and (min-width: 1450px) {
     .nav-toggle-label{
@@ -300,7 +287,6 @@ nav a:hover{
     nav a:hover::before{
         transform: scale(1,1);
     }
-  
 
 
     .profile {
@@ -308,7 +294,33 @@ nav a:hover{
         height: auto;
     }
   
+    .writing {
+      padding-left: 25px;
+      padding-right:25px;
+      font-size: 1vmax;
+    }
+  
+    .company {
+      font-weight: bold;
+      font-size: 2.5vmax;
+      height: 1vh;
+    }
+
+    .workduration {
+        font-weight: normal;
+        font-size: 1.5vmax;
+        height: 3vh;
+    }
+
+    .workposition {
+      font-weight: normal;
+      font-size: 1.5vmax;
+      height: 3vh;
+    }
+  
 }
+
+
 
 @media screen and (min-width: 850px) {
     .wrap{
@@ -325,4 +337,9 @@ nav a:hover{
         padding-left: 10px;
         width:70%;
       }
+  
+  
+  
+    
+
 }
