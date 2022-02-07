@@ -65,7 +65,7 @@ body {
     min-height:100%;
     box-shadow: 0 0 3em rgba(0,0,0, 0.15);
     padding-top: 90px;
-    font-size: 17pt;
+    font-size: 2.3vmax;
 }
 
 header {
@@ -74,7 +74,7 @@ header {
     position: fixed;
     z-index: 1000;
     width: 100%;
-    height: 75px;
+    height: 7vmax;
 }
 
 nav{
@@ -182,7 +182,7 @@ nav a:hover{
 }
 
 .logo {
-    padding-top: 10px;
+    padding-top: 2vh;
 
 }
 
@@ -207,24 +207,28 @@ nav a:hover{
 
 .company {
     font-weight: bold;
-    font-size: 4vmax;
-    font-size: 40px;
-    height: 30px;
-    padding-bottom: 75px;
+    font-size: 3.5vmax;
+    
+    height: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    
 }
 
 .workduration {
     font-weight: normal;
-    font-size: 3vmax;
-    font-size: 30px;
-    height: 15px;
+    font-size: 2.5vmax;
+    
+    height: 1vh;
+    padding-top: 3vh;
+    
 }
 
 .workposition {
     font-weight: normal;
-    font-size: 3vmax;
-    font-size: 30px;
-    height: 15px;
+    font-size: 2.5vmax;
+    
+    height: 1vh;
 }
 
 @media screen and (min-width: 1450px) {
@@ -235,6 +239,7 @@ nav a:hover{
     header{
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+        height:75px;
     }
 
     .content {
@@ -328,6 +333,7 @@ nav a:hover{
       height: 30px;
     }
   
+    
 }
 
 
@@ -349,7 +355,7 @@ nav a:hover{
       }
   
   
-  
-    
+      
+     
 
 }
