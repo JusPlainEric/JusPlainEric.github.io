@@ -111,7 +111,7 @@ nav a{
     color: var(--secondarycolor);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 2.5vmax;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
@@ -137,7 +137,7 @@ nav a{
 .nav-toggle-label span::after  {
     display:block;
     background: var(--secondarydark);
-    height: 2px;
+    height: 0.15vmax;
     width: 2.5em;
     border-radius: 2px;
     position: relative;
@@ -150,11 +150,11 @@ nav a{
 }
 
 .nav-toggle-label span::before {
-    bottom: 7px;
+    bottom: 0.75vmax;
 }
 
 .nav-toggle-label span::after {
-    top: 7px;
+    top: 0.75vmax;
 }
 
 nav a:hover{
@@ -272,6 +272,7 @@ nav a:hover{
     nav a {
         opacity: 1;
         position: relative;
+        font-size: 1.1vmax;
     }
 
     nav ul {
