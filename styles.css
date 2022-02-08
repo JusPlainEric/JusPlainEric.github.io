@@ -245,6 +245,7 @@ nav a:hover{
     .content {
         margin-left: 300px;
         margin-right: 300px;
+        padding-top: 5vmax;
     }
 
     .logo {
@@ -353,10 +354,6 @@ nav a:hover{
       .two {
         padding-left: 10px;
         width:70%;
-      }
-  
-      .content {
-          padding-top: 7vmax;
       }
       
      
